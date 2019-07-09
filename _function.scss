@@ -1,0 +1,25 @@
+@function pixelize($colors, $size) {
+  $result: '';
+  $numRows: length($colors);
+
+  @for $rowIndex from 1 through $numRows {
+	$y: ($rowIndex - 1);
+	$row: nth($colors, $rowIndex);
+	$numCols: length($row);
+
+	@for $cellIndex from 1 through $numCols {
+	  $x: ($cellIndex - 1);
+	  $color: nth($row, $cellIndex);
+
+	  $sep: ',';
+	  @if $x == 0 and $y == 0 {
+		$sep: '';
+	  }
+
+	  $result: $result + '#{$sep}#{$x * $size} #{$y * $size} #{$color}'
+	}
+  }
+
+  $result: unquote($result);
+  @return $result;
+}

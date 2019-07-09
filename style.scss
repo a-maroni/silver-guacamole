@@ -1,20 +1,21 @@
 @import 'variables';
+@import 'function';
 
 #heart {
   position: relative;
-  width:    calc(20 * #{$size});
+  width:    calc(23 * #{$size});
   // Pixel size * # of columns
-  height:   calc(20 * #{$size});
+  height:   calc(18 * #{$size});
   // Pixel size * # of rows
   margin:   1rem;
 
   &::after {
-	content:  '';
-	position: absolute;
-	top:      0;
-	left:     0;
-	width:    $size;
-	height:   $size;
-	// box-shadow will be applied here
+	content:    '';
+	position:   absolute;
+	top:        0;
+	left:       0;
+	width:      $size;
+	height:     $size;
+	box-shadow: pixelize($heart, $size);
   }
 }

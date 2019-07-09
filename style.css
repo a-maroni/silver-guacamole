@@ -1,14 +1,15 @@
 #heart {
   position: relative;
-  width: calc(20 * 20px);
-  height: calc(20 * 20px);
+  width: calc(23 * 10px);
+  height: calc(18 * 10px);
   margin: 1rem; }
   #heart::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px; }
+    width: 10px;
+    height: 10px;
+    box-shadow: 0px 0px transparent,10px 0px transparent,20px 0px transparent,30px 0px #000,40px 0px #000,50px 0px transparent,60px 0px transparent,70px 0px transparent,80px 0px transparent,90px 0px #000,100px 0px #000,0px 10px transparent,10px 10px transparent,20px 10px #000,30px 10px #ef9cb5,40px 10px #ef9cb5,50px 10px #000,60px 10px transparent,70px 10px transparent,80px 10px #000,90px 10px #ef9cb5,100px 10px #ef9cb5,110px 10px #000,0px 20px transparent,10px 20px #000,20px 20px #ef9cb5,30px 20px #ef9cb5,40px 20px #ef9cb5,50px 20px #ef9cb5,60px 20px #000,70px 20px #000,80px 20px #ef9cb5,90px 20px #ef9cb5,100px 20px #ef9cb5,110px 20px #ef9cb5,120px 20px #000,0px 30px transparent,10px 30px #000,20px 30px #ef9cb5,30px 30px #ef9cb5,40px 30px #ef9cb5,50px 30px #ef9cb5,60px 30px #ef9cb5,70px 30px #ef9cb5,80px 30px #ef9cb5,90px 30px #ef9cb5,100px 30px #ef9cb5,110px 30px #ef9cb5,120px 30px #000,0px 40px transparent,10px 40px transparent,20px 40px #000,30px 40px #ef9cb5,40px 40px #ef9cb5,50px 40px #ef9cb5,60px 40px #ef9cb5,70px 40px #ef9cb5,80px 40px #ef9cb5,90px 40px #ef9cb5,100px 40px #ef9cb5,110px 40px #000,0px 50px transparent,10px 50px transparent,20px 50px transparent,30px 50px #000,40px 50px #ef9cb5,50px 50px #ef9cb5,60px 50px #ef9cb5,70px 50px #ef9cb5,80px 50px #ef9cb5,90px 50px #ef9cb5,100px 50px #000,0px 60px transparent,10px 60px transparent,20px 60px transparent,30px 60px transparent,40px 60px #000,50px 60px #ef9cb5,60px 60px #ef9cb5,70px 60px #ef9cb5,80px 60px #ef9cb5,90px 60px #000,0px 70px transparent,10px 70px transparent,20px 70px transparent,30px 70px transparent,40px 70px transparent,50px 70px #000,60px 70px #ef9cb5,70px 70px #ef9cb5,80px 70px #000,0px 80px transparent,10px 80px transparent,20px 80px transparent,30px 80px transparent,40px 80px transparent,50px 80px transparent,60px 80px #000,70px 80px #000; }
 
 /*# sourceMappingURL=style.css.map */

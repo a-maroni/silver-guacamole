@@ -1,9 +1,23 @@
 // The width/height of each of our "pixels".
-$size: 20px;
+$size: 10px;
 
 // Colors
 $t: transparent;
 $black: #000;
-$gray: #cdc9cf;
-$dkgray: #a09da1;
-$pink: #ffa6ed;
+$pink: #ef9cb5;
+$light: #fdf1f5;
+
+// Heart
+
+$heart: (
+						($t, $t, $t, $black, $black, $t, $t, $t, $t, $black, $black), // 1st Row
+						($t, $t, $black, $pink, $pink, $black, $t, $t, $black, $pink, $pink, $black), // 2nd Row
+						($t, $black, $pink, $pink, $pink, $pink, $black, $black, $pink, $pink, $pink, $pink, $black), // 3rd Row
+						($t, $black, $pink, $pink, $pink, $pink, $pink, $pink, $pink, $pink, $pink, $pink, $black), // 4th Row
+						($t, $t, $black, $pink, $pink, $pink, $pink, $pink, $pink, $pink, $pink, $black), // 5th Row
+						($t, $t, $t, $black, $pink, $pink, $pink, $pink, $pink, $pink, $black), // 6th Row
+						($t, $t, $t, $t, $black, $pink, $pink, $pink, $pink, $black), // 7th Row
+						($t, $t, $t, $t, $t, $black, $pink, $pink, $black), // 8th Row
+						($t, $t, $t, $t, $t, $t, $black, $black) // 9th Row
+		  // Additional rows
+		);
