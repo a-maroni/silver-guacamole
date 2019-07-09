@@ -1,0 +1,14 @@
+#heart {
+  position: relative;
+  width: calc(20 * 20px);
+  height: calc(20 * 20px);
+  margin: 1rem; }
+  #heart::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px; }
+
+/*# sourceMappingURL=style.css.map */
